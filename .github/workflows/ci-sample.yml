@@ -39,4 +39,4 @@ jobs:
           echo environment variable is: ${{ vars.PASSWORD_PROD }}
           echo repo variable is : ${{ vars.ALL }}
           echo environment secret is : ${{ secrets.ADMIN_PASS }}
-          echo repo secret is : {{ secrets.DB_CREDS }}
+          echo repo secret is : ${{ secrets.DB_CREDS }}
